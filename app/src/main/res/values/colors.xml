@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--选项未选中-->
+    <color name="color_option_stroke">#3F9FFF</color>
+    <color name="color_option_solid_n">#ffffff</color>
+    <color name="color_option_text_n">#3F9FFF</color>
+
+    <!--选项选中-->
+    <color name="color_option_solid_s">#3F9FFF</color>
+    <color name="color_option_text_s">#ffffff</color>
+
+    <!--答案-->
+    <color name="color_question_answer_stroke">#CFD0D4</color>
+    <color name="color_question_answer_solid">#ffffff</color>
+    <color name="color_question_answer_text">#AAAEB5</color>
+
+    <color name="color_question_title">#293654</color>
+    <color name="color_question_btn">#222222</color>
+
+
+</resources>

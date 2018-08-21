@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/multiple_option_layout"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+
+    <TextView
+        android:id="@+id/multiple_option_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"
+        android:textColor="#333333"
+        android:textSize="15sp"
+        tools:text="多选选项" />
+
+
+    <ImageView
+        android:id="@+id/multiple_option_check"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:focusable="false"
+        android:src="@mipmap/multiple_choice_normal" />
+
+    <View
+        android:id="@+id/multiple_divide_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:background="#eeeeee" />
+
+</RelativeLayout>
+

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_question"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_left"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/question_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/color_question_title"
+        android:textSize="@dimen/size_question_title"
+        tools:text="this is a question title" />
+
+    <LinearLayout
+        android:id="@+id/answer_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/answer_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="46dp"
+            android:background="@drawable/bg_option_n"
+            android:maxLines="3"
+            android:text="确认"
+            android:textColor="@color/color_option_text_n"
+            android:textSize="@dimen/size_option_text" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/talk_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="点击说话"
+            android:textColor="#2696ff"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:id="@+id/layout_ope"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/ope_btn_left"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="清空"
+                android:textColor="@color/color_question_btn"
+                android:textSize="@dimen/size_question_btn" />
+
+            <com.dachen.component.question.WaterRippleView
+                android:id="@+id/btn_voice"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerInParent="true"
+                app:rippleAutoRunning="false"
+                app:rippleCenterIcon="@mipmap/icon_voice_hight"
+                app:rippleColor="#B22696FF"
+                app:rippleCount="0"
+                app:rippleSpacing="10dp" />
+
+            <TextView
+                android:id="@+id/ope_btn_right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="确认"
+                android:textColor="@color/color_question_btn"
+                android:textSize="@dimen/size_question_btn"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
+
+

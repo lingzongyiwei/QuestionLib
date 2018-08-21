@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">QuestionLib</string>
+    <!--答题过程中附加面板-->
+    <string name="question_extra_title_addition">感谢您的回答，您还有什么需要补充吗？</string>
+    <string name="question_extra_addition_btn1">我要补充</string>
+    <string name="question_extra_addition_btn2">取消</string>
+
+    <string name="question_extra_title_start">欢迎来到随访答题，请问您准备好了吗？</string>
+    <string name="question_extra_start_btn1">现在回答</string>
+    <string name="question_extra_start_btn2">稍后回答</string>
+
+    <string name="question_extra_title_continue">还有一些问题需要您回答？</string>
+    <string name="question_extra_continue_btn1">继续回答</string>
+    <string name="question_extra_continue_btn2">取消</string>
+</resources>

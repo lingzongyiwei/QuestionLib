@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="WaterRippleView">
+        <attr name="rippleSpacing" format="dimension|reference"/>
+        <attr name="rippleCount" format="integer|reference"/>
+        <!--<attr name="rippleColor" format="color|reference"/>-->
+        <attr name="rippleCenterIcon" format="reference"/>
+        <attr name="rippleAutoRunning" format="boolean"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_question_title">22sp</dimen>
+    <dimen name="size_question_btn">15sp</dimen>
+    <dimen name="size_option_text">15sp</dimen>
+</resources>

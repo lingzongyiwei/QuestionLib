@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/option_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/bg_option_n"
+    android:textColor="@color/color_option_text_n"
+    android:textSize="@dimen/size_option_text"
+    tools:context=".MainActivity"
+    tools:text="这是一个纯文字的选项">
+
+
+</TextView>

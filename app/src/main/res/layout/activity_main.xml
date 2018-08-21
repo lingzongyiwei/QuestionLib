@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/layout_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/question_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_toLeftOf="@id/img_right"
+            android:background="@drawable/bg_question_answer"
+            android:textColor="@color/color_question_answer_text"
+            android:textSize="@dimen/size_option_text"
+            android:visibility="invisible"
+            android:maxLines="3"
+            tools:text="这是一个纯文字的选项" />
+
+        <TextView
+            android:id="@+id/question_answer_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_toLeftOf="@id/img_right"
+            android:background="@drawable/bg_question_answer"
+            android:textColor="@color/color_question_answer_text"
+            android:textSize="@dimen/size_option_text"
+            android:maxLines="3"
+            android:visibility="invisible"
+            tools:text="这是一个纯文字的选项" />
+
+        <ImageView
+            android:id="@+id/img_right"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:visibility="invisible"
+            android:src="@mipmap/ic_launcher" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_question_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
